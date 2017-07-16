@@ -58,6 +58,16 @@ $(document).ready(function(){
         $(".main").addClass('back');
     });
 
+    $(".product_wrapp").click(function () {
+        var bg = $(this).next(".b_bg").toggleClass('down');
+        bg.find(".big_desc").toggleClass('down');
+    });
+
+    $('.fa_times').click(function () {
+        var popup = $(this).parent('.big_desc').removeClass('down');
+        popup.parent('.b_bg').toggleClass('down');
+    });
+
     //меню четвертого примера
     $(".menu_touch").click(function () {
         $(".menu_down").slideToggle(150);
@@ -152,5 +162,39 @@ $(document).ready(function(){
         $('.side_menu').toggleClass('sleft');
         $('.main').toggleClass('on');
     });
+});
+
+//tabs
+window.onload = (function () {
+    document.querySelector('.tabs-header').addEventListener('click', fTabs);
+
+
+    function fTabs(event) { //передаем в ф-ю событие - event
+        console.log(event);
+        if(event.target.className == 'tab-h' ){
+
+            //номер вкладки, кот нужно отобразить
+            var dataTab = event.target.getAttribute('data-tab');
+            //откл класс active
+            var tabH = document.getElementsByClassName('tab-h');
+
+            for(var i = 0; i < tabH.length; i++){
+                tabH[i].classList.remove('active');
+            }
+
+            event.target.classList.add('active');
+
+            //все табы
+            var tabBody = document.getElementsByClassName('tab-b');
+            for(var i = 0; i < tabBody.length; i++){
+                if(dataTab == i){
+                    tabBody[i].style.display = 'block';
+                }else {
+                    tabBody[i].style.display = 'none';
+                }
+            }
+        }
+    }
+
 });
 

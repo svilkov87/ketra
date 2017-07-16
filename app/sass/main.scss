@@ -129,7 +129,7 @@ body{
             line-height: $lh_nav;
             a {
               color: $nav_font;
-              font-size: 15px;
+              font-size: 13px;
               text-transform: uppercase;
               line-height: $lh_nav;
               display: block;
@@ -365,92 +365,227 @@ body{
         min-height: 350px;
         background: #ffffff;
         margin-bottom: 15px;
-      }
-      .advantages {
-        margin-bottom: 10px;
-        border: 1px solid $bor_def;
-        background: #fff;
-        @include bradius(4px);
-        .today_ketra {
-          text-transform: uppercase;
-          padding: 15px 10px;
-          color: #fff;
-          background: rgba(171, 164, 159, 0.66);
+        position: relative;
+        &:hover .hover_wrapp {
+          opacity: 1;
         }
-        .ul_adv{
-          padding: 15px;
-          .li_adv {
-            h3{
-              color: #c60018;
-              margin-top: 15px;
+        &:hover .look {
+          opacity: 1;
+        }
+        &:hover .img_preview {
+          @include scale(.85);
+        }
+        .img_top {
+          padding-top: 30px;
+          .img_preview {
+            max-width: 200px;
+            max-height: 200px;
+            margin: 0 auto;
+            display: block;
+            @include transition(.2s);
+          }
+        }
+        .desc {
+          position: absolute;
+          bottom: 10px;
+          right: 0;
+          left: 0;
+          padding: 10px;
+          .title{
+            text-align: center;
+            padding: 5px;
+            color: $nav_bg_hover;
+          }
+          .price {
+            text-align: center;
+            padding: 5px;
+          }
+        }
+        .hover_wrapp {
+          opacity: 0;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.53);
+          text-align: center;
+          @include transition(.1s);
+          &:hover .look{
+            opacity: 1;
+            top: 42%;
+          }
+          &:hover .font_wr{
+            opacity: 1;
+            bottom: 42%;
+          }
+          .look{
+            opacity: 0;
+            color: yellow;
+            //padding-top: 30%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            //padding-bottom: 20%;
+            text-align: center;
+            display: block;
+            @include transition(.2s);
+          }
+          .font_wr {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            color: #fff;
+            //padding-bottom: 20%;
+            text-align: center;
+            display: block;
+            @include transition(.2s);
+            .fa{
+
             }
-            p{
+          }
+        }
+
+      }
+
+      .b_bg{
+        opacity: 0;
+        position: fixed;
+        visibility: hidden;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background: rgba(174, 174, 174, 0.47);
+        @include transition(.2s);
+        @include bsh( 0px 2px 30px 0px rgba(50, 50, 50, 0.55));
+        .big_desc{
+          opacity: 0;
+          position: fixed;
+          overflow: hidden;
+          top: 20%;
+          right: 0;
+          left: 0;
+          margin: auto;
+          z-index: 999;
+          width: 95%;
+          height: 450px;
+          background: #fff;
+          @include transition(.3s);
+          @include translY(-100%);
+          @include bsh( 0px 2px 30px 0px rgba(50, 50, 50, 0.55));
+          @include smart_vert_hor{
+            width: 95%;
+          }
+          .fa_times {
+            color: #000;
+            position: absolute;
+            top: 13px;
+            right: 10px;
+            cursor: pointer;
+            z-index: 99999;
+          }
+          .desc_head {
+            .desc_title {
+              height: 40px;
               position: relative;
-              padding: 5px 0 5px 15px;
-              margin-left: 10px;
-              font-size: 14px;
-              color: #000;
-              &:before {
-                position: absolute;
-                content: '';
-                left: 0;
-                bottom: 10px;
-                padding: 2px;
-                background: $nav_bg_hover;
+              h3{
+                line-height: 40px;
+                padding-left: 10px;
+              }
+            }
+          }
+          .content_desc{
+            //осн характ-ки
+            .main_desc {
+              .main_desc_h{
+                background: #67aaff;
+                padding: 5px;
+              }
+              .main_content{
+                 .item_content{
+                   padding: 5px;
+                   position: relative;
+                   overflow: hidden;
+                   .sp_l{
+                     float: left;
+                   }
+                   .sp_r{
+                     position: absolute;
+                     right: 15px;
+                     top: 6px;
+                   }
+                }
+              }
+            }
+
+            //размеры
+            .main_sizes {
+              .sizes_h{
+                background: #67aaff;
+                padding: 5px;
+              }
+              .sizes_content{
+                .item_size{
+                  padding: 5px;
+                  position: relative;
+                  overflow: hidden;
+                  .p_l{
+                    float: left;
+                  }
+                  .pr{
+                    position: absolute;
+                    right: 15px;
+                    top: 6px;
+                  }
+                }
+              }
+            }
+          }
+          .desc_tabs {
+            padding: 10px;
+            .tabs {
+              .tabs-header{
+                .tab-h {
+                  display: inline;
+                  height: 30px;
+                  line-height: 30px;
+                  text-align: center;
+                }
+                .active{
+                  color: red;
+                }
+              }
+              .tabs-body{
+                .tab-b{
+                  display: none;
+                }
               }
             }
           }
         }
+        .down {
+          display: block;
+          opacity: 1;
+          @include translY(0);
+
+        }
       }
-      .order_block {
-        @include bradius(4px);
-        border: 1px solid $bor_def;
-        .head_order{
-          padding: $padd_def;
-          background: #fff;
-          text-align: center;
-          .h{
-            padding: 20px 0;
-            text-transform: uppercase;
-            font-weight: bold;
-            border-bottom: 1px dashed;
-          }
-          .sp_desc_order {
-            padding: 10px 0;
-            display: block;
-          }
-        }
-        .main_form{
-          padding: 15px;
-          background: #fff;
-          .l_header{
-            color: #000;
-            padding-bottom: 10px;
-            display: block;
-          }
-          .form_control {
-            color: #000;
-            width: 100%;
-            padding: $padd_def;
-            box-sizing: border-box;
-            background: none;
-            margin-bottom: $padd_def;
-            outline: none;
-            resize: none;
-            //border: 0;
-            transition: all .3s;
-            border: 1px solid $bor_def;
-            @include bradius(3px);
-          }
-          .b_order {
-            padding: $padd_def;
-            background: $bg_forms;
-            outline: none;
-            resize: none;
-            border: 0;
-            color: #fff;
-          }
-        }
+
+      .down {
+        visibility: visible;
+        opacity: 1;
       }
     }
   }
