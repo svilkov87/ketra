@@ -68,20 +68,12 @@ $(document).ready(function(){
         popup.parent('.b_bg').toggleClass('down');
     });
 
-    //меню четвертого примера
-    $(".menu_touch").click(function () {
-        $(".menu_down").slideToggle(150);
+
+    $(".bg_call").click(function () {
+        $(this).nextAll('.content_desc').toggleClass('content_hide');
+        $(this).nextAll('.phone').toggleClass('phone_show');
     });
 
-    //меню пятого примера
-    $(".menu_touch_five").click(function () {
-        $('.menu_down_five').toggleClass('up');
-    });
-
-    //меню шестого примера
-    $(".menu_touch_six").click(function () {
-        $('.menu_down_six').toggleClass('up');
-    });
 
 
     // форма отправки заказа
