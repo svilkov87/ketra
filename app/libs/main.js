@@ -6,11 +6,6 @@ $(document).ready(function(){
      $("#loading").delay(100).fadeOut("slow");
      });
 
-    //протфолио показать подробности
-    $(".sb_more").click(function() {
-        $(this).toggleClass('burger');
-        $(this).prev(".second_blcok").toggleClass('active');
-    });
 
     //скролл side главная страница
     $(window).scroll(function () {
@@ -48,8 +43,8 @@ $(document).ready(function(){
 
 
 // выпадающее меню
-  $("#justify_nav").click(function(){
-    $(".menu").fadeToggle(500);
+  $(".fa-align-justify").click(function(){
+    $(".ul_right").fadeToggle(500);
   });
 
 
@@ -68,10 +63,34 @@ $(document).ready(function(){
         popup.parent('.b_bg').toggleClass('down');
     });
 
-
+    //показать модал продукт
     $(".bg_call").click(function () {
+        $(this).toggleClass('back');
         $(this).nextAll('.content_desc').toggleClass('content_hide');
         $(this).nextAll('.phone').toggleClass('phone_show');
+    });
+
+    //показать форму продукт
+    $(".q_button").click(function () {
+        var bg_q_m = $(this).next('.q_del_m').toggleClass('show');
+        bg_q_m.children('.q_modal_wr').toggleClass('show');
+    });
+
+    $('#q_close' ).click(function () {
+        var q_del = $(this).parent('.q_modal_wr').removeClass('show');
+        q_del.parent('.q_del_m').removeClass('show');
+    });
+
+
+    //показать форму доставка
+    $(".link-btn").click(function () {
+        var bg_del_m = $(this).next('.bg_del_m').toggleClass('show');
+        bg_del_m.children('.del_modal_wr').toggleClass('show');
+    });
+
+    $('#del_close' ).click(function () {
+        var bg_del = $(this).parent('.del_modal_wr').removeClass('show');
+        bg_del.parent('.bg_del_m').removeClass('show');
     });
 
 
@@ -141,19 +160,13 @@ $(document).ready(function(){
     //фиксированный нав
     $(window).scroll(function() {
         if ($(this).scrollTop() > 5){
-            $('.navbar').addClass("nav_bottom");
+            $('header').addClass("nav_bottom");
         }
         else{
-            $('.navbar').removeClass("nav_bottom");
+            $('header').removeClass("nav_bottom");
         }
     });
 
-    //показать меню слева
-    $("#menu_toggle").click(function() {
-        $(this).toggleClass('mleft');
-        $('.side_menu').toggleClass('sleft');
-        $('.main').toggleClass('on');
-    });
 });
 
 //tabs
