@@ -1,9 +1,9 @@
 <?php
 
 $host = 'localhost';
-$db =   'svilkov87_cv'; //  ��� ��
+$db =   'svilkov87_ketrablocks'; //  ��� ��
 $charset = 'utf8';
-$user = '046606267_cv'; //  ����
+$user = '046606267_kb'; //  ����
 $pass = 'vfvby1955'; //  ������ �����
 
 // ����������� � �� PDO

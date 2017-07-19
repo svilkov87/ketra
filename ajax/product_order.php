@@ -8,21 +8,19 @@ ini_set('display_startup_errors', TRUE);
 
 //
 $name = $_POST['name'];
-$contacts = $_POST['s_name'];
-$theme = $_POST['theme'];
-$insert = $pdo->prepare("INSERT INTO `messages` SET user_data=:user_data, contacts=:contacts, theme=:theme");
-$insert->bindParam(':user_data', $name);
-$insert->bindParam(':contacts', $contacts);
-$insert->bindParam(':theme', $theme);
+$phone = $_POST['phone'];
+$insert = $pdo->prepare("INSERT INTO `orders` SET user_name=:user_name, phone=:phone");
+$insert->bindParam(':user_name', $name);
+$insert->bindParam(':phone', $phone);
 $insert->execute();
 
 ////        уведомление на почту
 require_once("../phpmailer/phpmailer/mailfunc.php");
 $m_to = "svilkov87@mail.ru"; // кому - ящик (из формы)
 $m_nameto = "svilkov87@mail.ru"; // Кому
-$m_namefrom = $_POST['s_name']; // Поле От в письме
-$subj = "Приглашение на собеседование";
-$tmsg = $_POST['theme'];
+$m_namefrom = $_POST['phone']; // Поле От в письме
+$subj = "Новая заявка";
+$tmsg = $_POST['name'];
 $m_from = 'svilkov00@yandex.ru'; // от ког
 $m_reply = 'svilkov00@yandex.ru'; // адрес для обратного ответа
 $mail1 = phpmailer($subj, $tmsg, $m_to, $m_nameto, $m_namefrom, $m_from, $m_reply, $m_hostmail, $m_port, $m_password, $m_secure);

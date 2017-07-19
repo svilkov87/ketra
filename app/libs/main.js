@@ -48,10 +48,6 @@ $(document).ready(function(){
   });
 
 
-    //написать мне
-    $(".write_me").click(function () {
-        $(".main").addClass('back');
-    });
 
     $(".product_wrapp").click(function () {
         var bg = $(this).next(".b_bg").toggleClass('down');
@@ -65,9 +61,11 @@ $(document).ready(function(){
 
     //показать модал продукт
     $(".bg_call").click(function () {
-        $(this).toggleClass('back');
-        $(this).nextAll('.content_desc').toggleClass('content_hide');
-        $(this).nextAll('.phone').toggleClass('phone_show');
+        var wrapp = $(this).parent('.big_desc');
+        $('.b_bg').removeClass('down');
+        $('.big_desc').removeClass('down');
+
+        $('.bg_phone').addClass('show');
     });
 
     //показать форму продукт
@@ -98,17 +96,16 @@ $(document).ready(function(){
     // форма отправки заказа
     $('.btn_modal').click(function(e){
         e.preventDefault();
-        var name = $('#name').val(),
-            s_name = $('#s_name').val(),
-            field = $('#modal_field').val();
+            var name = $('#name').val(),
+                phone = $('#phone_number').val();
 
-        if( name == "" || s_name == "" || field == ""){
+        if( name == "" || phone == ""){
             $('.err_block').css("display" , "block");
         }
         else {
             $('.err_block').css("display" , "none");
             $.ajax({
-                url: "../../ajax/upload.php",
+                url: "../../ajax/product_order.php",
                 type: "POST",
                 data: $('#my_form').serialize(),
                 dataType: "html"
