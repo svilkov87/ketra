@@ -18,14 +18,14 @@ ini_set('display_startup_errors', TRUE);
     <meta name="description" content="cv" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="app/img/favicon_fd.ico"/>
+    <link rel="shortcut icon" href="app/img/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link rel="stylesheet" href="app/libs/font-awesome-4.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="app/libs/jQuery-slimScroll-1.3.8/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-481dd81233.css">
+    <link rel="stylesheet" href="app/css/main-7a35eb6e19.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
@@ -82,6 +82,27 @@ ini_set('display_startup_errors', TRUE);
             });
         });
     </script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap,
+                myPlacemark;
+
+        function init(){
+            myMap = new ymaps.Map("map", {
+                center: [56.330241, 43.996186
+                ],
+                zoom: 16
+            });
+
+            myPlacemark = new ymaps.Placemark([56.330241, 43.996186], {
+                hintContent: 'Москва!',
+                balloonContent: 'Столица России'
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
     <link href="app/libs/jquery.bxslider/jquery.bxslider.css" rel="stylesheet">
 
 </head>
@@ -107,6 +128,7 @@ ini_set('display_startup_errors', TRUE);
                         <span> BRR.RK52@GMAIL.COM</span>
                     </div>
                     <div class="nav_right">
+                        <i class="fa fa-align-justify" aria-hidden="true"></i>
                         <ul class="ul_right">
                             <li class="li_right"><a href="#main" class="active">Главная</a></li>
                             <li class="li_right"><a href="#products">Продукция</a></li>
@@ -125,14 +147,8 @@ ini_set('display_startup_errors', TRUE);
                 <div class="head_top">
                     <h1>Керамические блоки КЕТРА</h1>
                     <span class="span_ht">Высокий стандарт строительства</span>
-                    <div class="adress">
-                        <p class="address"><b>Нижний Новгород</b></p>
-                        <p class="address"></p>
-                        <p class="address"></p>
-                        <p class="address"></p>
-                    </div>
                 </div>
-                <div class="button_go"></div>
+                <div class="go">Узнать больше</div>
             </div>
         </div>
     </section>
@@ -1757,14 +1773,58 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
+                    <div class="note_act">* Акция дейстует до конца августа 2017г</div>
+                    <div class="link-btn_act">Оставить заявку</div>
                 </div>
             </div>
         </div>
     </section>
     <section class="cv_sections" id="contacts">
+        <div id="map" style="width: 100%; height: 400px"></div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer_item">
+                            <div class="footer_nav">
+                                <ul class="ul_right">
+                                    <p class="ul">Меню</p>
+                                    <li class="li_right"><a href="#main">Главная</a></li>
+                                    <li class="li_right"><a href="#products">Продукция</a></li>
+                                    <li class="li_right"><a href="#delivery">Доставка</a></li>
+                                    <li class="li_right"><a href="#actions">Акции</a></li>
+                                    <li class="li_right"><a href="#contacts">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_item">
+                            <div class="adress">
+                                <p class="ad_p color"><b>Нижний Новгород</b></p>
+                                <p class="ad_p">Рождественская ул, дом N 11-13/7</p>
+                                <p class="ad_p">Помещение П2, офис 210</p>
+                                <p class="ad_p">brr.rk52@gmail.com</p>
+                                <p class="ad_p">8(920) 047 54 79</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_item">
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="hr">
+                        <p>© 2017 Все права защищены.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
 </div>
 </body>
 </html>

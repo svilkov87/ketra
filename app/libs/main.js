@@ -77,11 +77,10 @@ $(document).ready(function(){
         $('.bg_phone').addClass('show');
     });
 
-    //показать форму продукт
-    // $(".q_button").click(function () {
-    //     var bg_q_m = $(this).next('.q_del_m').toggleClass('show');
-    //     bg_q_m.children('.q_modal_wr').toggleClass('show');
-    // });
+    $(".link-btn_act").click(function () {
+        $('.bg_phone').addClass('show');
+    });
+    
 
     $('#q_close' ).click(function () {
         var q_del = $(this).parent('.q_modal_wr').removeClass('show');

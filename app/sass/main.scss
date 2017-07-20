@@ -1729,7 +1729,7 @@ body{
       }
       .act_item{
         border: 1px solid #ccc;
-        height: 350px;
+        min-height: 350px;
         margin-bottom: 10px;
         overflow: hidden;
         @include bradius(4px);
@@ -1746,7 +1746,7 @@ body{
             }
         }
         .act_desc{
-          height: 125px;
+          min-height: 125px;
           padding: 10px;
           margin: 0 auto;
           width: 95%;
@@ -1784,6 +1784,25 @@ body{
       padding: 3em;
       color: $nav_bg_hover
     }
+    .link-btn_act{
+      margin: 0 auto;
+      font-size: 15px;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 28px;
+      padding: 10px 36px;
+      background: #ff6600;
+      border: 1px solid #ff6600;
+      border-radius: 5px;
+      display: table;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      cursor: pointer;
+      @include transition(.2s);
+      &:hover{
+        background: #ff4b21;
+      }
+    }
   }
 
   //contacts
@@ -1791,8 +1810,47 @@ body{
   #contacts {
     height: auto;
     overflow: hidden;
-    padding: 2rem 0;
     background: #fff;
+    .footer{
+      padding: 50px 0;
+      min-height: 250px;
+      background: #393844;
+      .footer_item{
+        .adress{
+          margin: 0 auto;
+          .ad_p{
+            padding: 10px;
+            color: #fff;
+          }
+          .color{
+            color: $nav_bg_hover;
+          }
+        }
+        .footer_nav{
+          .ul_right{
+            .ul{
+              padding: 10px;
+              font-weight: bold;
+              color: $nav_bg_hover;
+            }
+            .li_right{
+              a{
+                display: block;
+                padding: 10px;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .hr{
+        text-align: center;
+        padding: 30px;
+        border-top: 1px dashed #ababab;
+        margin-top: 10px;
+        color: #fff;
+      }
+    }
   }
 }
 
