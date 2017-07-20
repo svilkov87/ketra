@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="app/libs/jQuery-slimScroll-1.3.8/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-b27e2f648c.css">
+    <link rel="stylesheet" href="app/css/main-481dd81233.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
@@ -42,6 +42,9 @@ ini_set('display_startup_errors', TRUE);
                 height: '450px'
             });
         });
+    </script>
+    <script type="text/javascript">
+        new WOW().init();
     </script>
     <script>
         $(document).ready(function(){
@@ -97,9 +100,11 @@ ini_set('display_startup_errors', TRUE);
             <div class="container">
                 <div class="row">
                     <div class="nav_left">
-                        <a href="#" class="link_logo">
-                            <img src="app/img/ketra_logo.png" alt="ketralogo">
-                        </a>
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <span> 8(920) 047 54 79</span>
+
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span> BRR.RK52@GMAIL.COM</span>
                     </div>
                     <div class="nav_right">
                         <ul class="ul_right">
@@ -120,6 +125,12 @@ ini_set('display_startup_errors', TRUE);
                 <div class="head_top">
                     <h1>Керамические блоки КЕТРА</h1>
                     <span class="span_ht">Высокий стандарт строительства</span>
+                    <div class="adress">
+                        <p class="address"><b>Нижний Новгород</b></p>
+                        <p class="address"></p>
+                        <p class="address"></p>
+                        <p class="address"></p>
+                    </div>
                 </div>
                 <div class="button_go"></div>
             </div>
@@ -130,7 +141,7 @@ ini_set('display_startup_errors', TRUE);
             <div class="row">
                 <div class="before_content">
                     <div class="pr_header">
-                        <h2>Сегодня КЕТРА это:</h2>
+                        <h2>Сегодня "КЕТРА" это:</h2>
                     </div>
                     <div class="slider_area">
                         <ul class="bx_slider">
@@ -193,19 +204,28 @@ ini_set('display_startup_errors', TRUE);
             <!--modal-->
             <div class="bg_phone">
                 <div class="phone">
+                    <i class="fa fa-times" id="close_product" aria-hidden="true"></i>
                     <div class="header">Оставить заявку</div>
                     <div class="modal_forms">
                         <div class="err_block">
                             Не все поля заполнены!
                         </div>
                         <div class="modal_confirm">
-                            Спасибо!
+                            Спасибо, мы свяжемся с Вами в ближайшее время!
+                        </div>
+                        <div class="cssload-thecube">
+                            <div class="cssload-cube cssload-c1"></div>
+                            <div class="cssload-cube cssload-c2"></div>
+                            <div class="cssload-cube cssload-c4"></div>
+                            <div class="cssload-cube cssload-c3"></div>
                         </div>
                         <form action="" method="post" id="my_form">
                             <div class="form_line">
+                                <label>Введите имя *</label>
                                 <input type="text" name="name" class="form_style" id="name" placeholder="Ваше имя">
                             </div>
                             <div class="form_line">
+                                <label>Укажите контактный телефон *</label>
                                 <input type="text" name="phone" class="form_style" id="phone_number" placeholder="Телефон">
                             </div>
                             <button type="submit" name="enter" class="btn_modal">Заказать звонок</button>
@@ -621,7 +641,142 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
+                        <div class="product_wrapp">
+                            <div class="img_top">
+                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                            </div>
+                            <div class="desc">
+                                <h3 class="title">КЕТРА 55</h3>
+                                <p class="price">0.00 руб/ шт</p>
+                            </div>
+                            <div class="hover_wrapp">
+                                <p class="look">описание</p>
+                                <div class="font_wr">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b_bg">
+                            <div class="big_desc">
+                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
+                                <div class="bg_call">Заказть звонок</div>
+                                <div class="desc_head">
+                                    <div class="desc_title">
+                                        <h3>КЕТРА 55</h3>
+                                    </div>
+                                </div>
+                                <div class="content_desc">
+                                    <div class="col-md-12">
+                                        <div class="main_desc">
+                                            <div class="main_desc_h">Основные характеристики</div>
+                                            <div class="main_content">
+                                                <div class="item_content">
+                                                    <p class="sp_l">Применение</p>
+                                                    <p class="sp_r">Стеновой</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Цвет</p>
+                                                    <p class="sp_r">Красный</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Размер (Тип)</p>
+                                                    <p class="sp_r">10.7 NF</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Пустотность</p>
+                                                    <p class="sp_r">52,5%</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Поверхность</p>
+                                                    <p class="sp_r">Гладкая</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Фаска</p>
+                                                    <p class="sp_r">Нет</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Марка прочности</p>
+                                                    <p class="sp_r">М-100</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">ГОСТ</p>
+                                                    <p class="sp_r">530-2012</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F50 Циклов</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Теплопроводность</p>
+                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Влагопоглощение</p>
+                                                    <p class="sp_r">20</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Вес</p>
+                                                    <p class="sp_r">15,1 кг</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="main_sizes">
+                                            <div class="sizes_h">Размеры</div>
+                                            <div class="sizes_content">
+                                                <div class="item_size">
+                                                    <p class="p_l">Длина</p>
+                                                    <p class="pr">380</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Ширина</p>
+                                                    <p class="pr">250</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Высота</p>
+                                                    <p class="pr">219</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="transporting">
+                                            <div class="trans_h">Транспортировка</div>
+                                            <div class="trans_content">
+                                                <div class="item_trans">
+                                                    <p class="p_l">Упаковка</p>
+                                                    <p class="p_r">термопленка</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Поддоны</p>
+                                                    <p class="p_r">Невозвращаемые</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Кол-во на поддоне</p>
+                                                    <p class="p_r">60шт</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м2</p>
+                                                    <p class="p_r">17.3</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м3</p>
+                                                    <p class="p_r">45.8</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
+                                                    <p class="p_r">1320</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
                         <div class="product_wrapp">
                             <div class="img_top">
                                 <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
@@ -1161,7 +1316,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="product_wrapp">
                             <div class="img_top">
                                 <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
@@ -1296,7 +1451,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="product_wrapp">
                             <div class="img_top">
                                 <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
@@ -1504,51 +1659,105 @@ ini_set('display_startup_errors', TRUE);
         </div>
     </section>
     <div class="caption-section">
+        <div class="bg_del">
+            <div class="phone_del">
+                <i class="fa fa-times" id="close_del" aria-hidden="true"></i>
+                <div class="header">Оставить заявку</div>
+                <div class="modal_forms">
+                    <div class="err_block_del">
+                        Не все поля заполнены!
+                    </div>
+                    <div class="modal_confirm_del">
+                        Спасибо!
+                    </div>
+                    <div class="cssload-thecube">
+                        <div class="cssload-cube cssload-c1"></div>
+                        <div class="cssload-cube cssload-c2"></div>
+                        <div class="cssload-cube cssload-c4"></div>
+                        <div class="cssload-cube cssload-c3"></div>
+                    </div>
+                    <form action="" method="post" id="del_form">
+                        <div class="form_line">
+                            <label>Введите имя *</label>
+                            <input type="text" name="name" class="form_style" id="user_name" placeholder="Ваше имя">
+                        </div>
+                        <div class="form_line">
+                            <label>Укажите контактный телефон *</label>
+                            <input type="text" name="phone" class="form_style" id="del_phone" placeholder="+ 7 900 800 00 00">
+                        </div>
+                        <div class="form_line">
+                            <label>Населенный пункт *</label>
+                            <input type="text" name="local" class="form_style" id="del_local" placeholder="...">
+                        </div>
+                        <div class="form_line">
+                            <label>Количество блоков *</label>
+                            <input type="text" name="count_blocks" class="form_style" id="del_count" placeholder="20">
+                        </div>
+                        <button type="submit" name="enter" class="btn_del">Заказать звонок</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
         <div class="container text-center">
             <h3>Остались
                 <span>вопросы?</span>
             </h3>
             <p>Рассчитать стоимость доставки</p>
             <div class="link-btn">Оставить заявку</div>
-            <div class="bg_del_m">
-                <div class="del_modal_wr">
-                    <i class="fa fa-times" id="del_close" aria-hidden="true"></i>
-                    <div class="del_m_header">
-                        <span>Заказать расчет стоимости доставки</span>
-                    </div>
-                    <div class="modal_forms">
-                        <form action="" method="post">
-                            <div class="form_line">
-                                <input type="text" name="name" class="form_style"  placeholder="Укажите Ваше имя или компанию">
-                            </div>
-                            <div class="form_line">
-                                <input type="text" name="s_name" class="form_style"  placeholder="Ваш телефон">
-                            </div>
-                            <div class="form_line">
-                                <input type="text" name="s_name" class="form_style" placeholder="Населенный пункт">
-                            </div>
-                            <div class="form_line">
-                                <input type="text" name="s_name" class="form_style" placeholder="Количество блоков">
-                            </div>
-
-                            <button type="submit" name="enter" class="btn_modal">Написать мне</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <section class="cv_sections" id="actions">
         <div class="act_header">
-            <h3>Текущие акции</h3>
+            <h3>Текущие акции компании</h3>
         </div>
         <div class="act_body">
-            <div class="col-md-6 col-md-offset-3">
-                <ul class="bg_main">
-                    <li><img src="app/img/osnovit.png" alt="no"></li>
-                    <li><img src="app/img/osnovit_2.png" alt="no"></li>
-                    <!--<li><img src="img/osnovit.png" alt="no"></li>-->
-                </ul>
+            <!--<div class="col-md-6 col-md-offset-3">-->
+            <!--<ul class="bg_main">-->
+            <!--<li><img src="img/osnovit.png" alt="no"></li>-->
+            <!--<li><img src="img/osnovit_2.png" alt="no"></li>-->
+            <!--&lt;!&ndash;<li><img src="img/osnovit.png" alt="no"></li>&ndash;&gt;-->
+            <!--</ul>-->
+            <!--</div>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="act_item">
+                            <div class="act_head">
+                                <img src="app/img/osnovit1.jpg" alt="no">
+                            </div>
+                            <div class="act_desc">
+                                <div class="desc_head">КЛАДОЧНЫЙ РАСТВОР ОСНОВИТ</div>
+                                <p>Cкидка на расвтор основит</p>
+                                <div class="strike"><strike>329р</strike> - <span>289р</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="act_item">
+                            <div class="act_head">
+                                <img src="app/img/lm.jpg" alt="no">
+                            </div>
+                            <div class="act_desc">
+                                <div class="desc_head">Кладочный раствор с перлитом</div>
+                                <p>Cкидка на расвтор LM - 10%</p>
+                                <div class="strike"><span>Успей купить!</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="act_item">
+                            <div class="act_head">
+                                <img src="app/img/poddon.png" alt="no">
+                            </div>
+                            <div class="act_desc">
+                                <div class="desc_head">Получи поддон в подарок!</div>
+                                <p>Cкидка на расвтор основит</p>
+                                <div class="strike"><strike>329р</strike> - <span>289р</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

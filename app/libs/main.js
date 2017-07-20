@@ -59,6 +59,10 @@ $(document).ready(function(){
         popup.parent('.b_bg').toggleClass('down');
     });
 
+    $('#close_product').click(function () {
+        $('.bg_phone').removeClass('show');
+    });
+
     //показать модал продукт
     $(".bg_call").click(function () {
         var wrapp = $(this).parent('.big_desc');
@@ -68,11 +72,16 @@ $(document).ready(function(){
         $('.bg_phone').addClass('show');
     });
 
-    //показать форму продукт
+    //показать модал продукт
     $(".q_button").click(function () {
-        var bg_q_m = $(this).next('.q_del_m').toggleClass('show');
-        bg_q_m.children('.q_modal_wr').toggleClass('show');
+        $('.bg_phone').addClass('show');
     });
+
+    //показать форму продукт
+    // $(".q_button").click(function () {
+    //     var bg_q_m = $(this).next('.q_del_m').toggleClass('show');
+    //     bg_q_m.children('.q_modal_wr').toggleClass('show');
+    // });
 
     $('#q_close' ).click(function () {
         var q_del = $(this).parent('.q_modal_wr').removeClass('show');
@@ -82,15 +91,12 @@ $(document).ready(function(){
 
     //показать форму доставка
     $(".link-btn").click(function () {
-        var bg_del_m = $(this).next('.bg_del_m').toggleClass('show');
-        bg_del_m.children('.del_modal_wr').toggleClass('show');
+        $('.bg_del').toggleClass('show');
+        $("#close_del").click(function () {
+            $('.bg_del').removeClass('show');
+        });
     });
-
-    $('#del_close' ).click(function () {
-        var bg_del = $(this).parent('.del_modal_wr').removeClass('show');
-        bg_del.parent('.bg_del_m').removeClass('show');
-    });
-
+    
 
 
     // форма отправки заказа
@@ -104,6 +110,8 @@ $(document).ready(function(){
         }
         else {
             $('.err_block').css("display" , "none");
+            $('#my_form').css("display" , "none");
+            $('.cssload-thecube').css("display" , "block");
             $.ajax({
                 url: "../../ajax/product_order.php",
                 type: "POST",
@@ -111,8 +119,9 @@ $(document).ready(function(){
                 dataType: "html"
             }).done(function(){
                 // $('#myModlal').css("display" , "none");
-                $('.modal_forms').css("display" , "none");
+                $('#my_form').css("display" , "none");
                 $('.modal_confirm').css("display" , "block");
+                $('.cssload-thecube').fadeOut(2000);
                 // alert('data');
             });
         }
@@ -120,10 +129,42 @@ $(document).ready(function(){
             $('.err_block').css("display" , "none");
         });
     });
+    
+    
+    // форма заявки на траспортировку
+    $('.btn_del').click(function(e){
+        e.preventDefault();
+            var del_name = $('#user_name').val(),
+                del_phone = $('#del_phone').val(),
+                local = $('#del_local').val(),
+                count = $('#del_count').val();
+
+        if( del_name == "" || del_phone == "" || local == "" || count == ""){
+            $('.err_block_del').css("display" , "block");
+        }
+        else {
+            $('.err_block_del').css("display" , "none");
+            $('#del_form').css("display" , "none");
+            $('.cssload-thecube').css("display" , "block");
+            $.ajax({
+                url: "../../ajax/delivery_order.php",
+                type: "POST",
+                data: $('#del_form').serialize(),
+                dataType: "html"
+            }).done(function(){
+                $('#del_form').css("display" , "none");
+                $('.modal_confirm_del').css("display" , "block");
+                $('.cssload-thecube').fadeOut(2000);
+            });
+        }
+        $('#user_name, #del_phone, #del_local, #del_count').focus(function(){
+            $('.err_block').css("display" , "none");
+        });
+    });
 
     //Плавный скролл до блока .div по клику на .scroll
   //Документация: https://github.com/flesler/jquery.scrollTo
-  $(".button_go").click(function() {
+  $(".go").click(function() {
     $.scrollTo($("#products"), 800, {
       offset: 0
     });
