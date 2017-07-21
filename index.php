@@ -17,15 +17,4 @@ if (empty($_GET['route']) || $_GET['route'] == 'home') {
     die();
 }
 
-### услуги
-if ($_GET['route'] == 'servises') {
-    include_once 'chapters/servises.php';
-    die();
-}
-
-### Личный кабинет
-if($_GET['route'] == 'lk'){
-    include_once 'chapters/lk/lk.php';
-    die();
-}
 

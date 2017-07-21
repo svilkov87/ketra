@@ -906,11 +906,17 @@ body{
                    border-bottom: $bb_content;
                    .sp_l{
                      float: left;
+                     @include smart_vert_hor{
+                       font-size: 14px;
+                     }
                    }
                    .sp_r{
                      position: absolute;
                      right: 15px;
                      top: 6px;
+                     @include smart_vert_hor{
+                       font-size: 14px;
+                     }
                    }
                 }
               }
@@ -931,11 +937,17 @@ body{
                   border-bottom: $bb_content;
                   .p_l{
                     float: left;
+                    @include smart_vert_hor{
+                      font-size: 14px;
+                    }
                   }
                   .pr{
                     position: absolute;
                     right: 15px;
                     top: 6px;
+                    @include smart_vert_hor{
+                      font-size: 14px;
+                    }
                   }
                 }
               }
@@ -956,11 +968,17 @@ body{
                   border-bottom: $bb_content;
                   .p_l{
                     float: left;
+                    @include smart_vert_hor{
+                      font-size: 14px;
+                    }
                   }
                   .p_r{
                     position: absolute;
                     right: 15px;
                     top: 6px;
+                    @include smart_vert_hor{
+                      font-size: 14px;
+                    }
                   }
                 }
               }
@@ -1545,7 +1563,7 @@ body{
     .text-center{
       text-align: center;
       h3{
-        font-size: 30px;
+        font-size: 25px;
         line-height: 45px;
         text-transform: uppercase;
         color: #fff;
@@ -1732,6 +1750,7 @@ body{
         min-height: 350px;
         margin-bottom: 10px;
         overflow: hidden;
+        position: relative;
         @include bradius(4px);
         @include transition(.2s);
         &:hover{
@@ -1776,6 +1795,13 @@ body{
               font-weight: bold;
             }
           }
+        }
+        .gift{
+          position: absolute;
+          bottom: 25px;
+          right: 24px;
+          height: 45px;
+          @include transition(.3s);
         }
       }
     }

@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="app/libs/jQuery-slimScroll-1.3.8/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-7a35eb6e19.css">
+    <link rel="stylesheet" href="app/css/main-e4b1aa1a1e.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
@@ -122,7 +122,7 @@ ini_set('display_startup_errors', TRUE);
                 <div class="row">
                     <div class="nav_left">
                         <i class="fa fa-mobile" aria-hidden="true"></i>
-                        <span> 8(920) 047 54 79</span>
+                        <span> +7(831) 21-41-900</span>
 
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         <span> BRR.RK52@GMAIL.COM</span>
@@ -145,17 +145,17 @@ ini_set('display_startup_errors', TRUE);
         <div class="container">
             <div class="row">
                 <div class="head_top">
-                    <h1>Керамические блоки КЕТРА</h1>
-                    <span class="span_ht">Высокий стандарт строительства</span>
+                    <h1 class="wow fadeInDown" data-wow-delay=".7s">Керамические блоки КЕТРА</h1>
+                    <span class="span_ht wow fadeInLeft" data-wow-delay=".7s">Высокий стандарт строительства</span>
                 </div>
-                <div class="go">Узнать больше</div>
+                <div class="go wow fadeInRight" data-wow-delay=".7s">Узнать больше</div>
             </div>
         </div>
     </section>
     <section class="cv_sections" id="products">
         <div class="container">
             <div class="row">
-                <div class="before_content">
+                <div class="before_content wow fadeIn" data-wow-delay=".7s">
                     <div class="pr_header">
                         <h2>Сегодня "КЕТРА" это:</h2>
                     </div>
@@ -252,14 +252,14 @@ ini_set('display_startup_errors', TRUE);
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/K-51.jpg" alt="ketra51" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">КЕТРА 51</h3>
+                                <p class="price">130,10 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -274,7 +274,412 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>КЕТРА 51</h3>
+                                    </div>
+                                </div>
+                                <div class="content_desc">
+                                    <div class="col-md-12">
+                                        <div class="main_desc">
+                                            <div class="main_desc_h">Основные характеристики</div>
+                                            <div class="main_content">
+                                                <div class="item_content">
+                                                    <p class="sp_l">Применение</p>
+                                                    <p class="sp_r">Стеновой</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Цвет</p>
+                                                    <p class="sp_r">Красный</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Размер (Тип)</p>
+                                                    <p class="sp_r">14.4 NF</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Пустотность</p>
+                                                    <p class="sp_r">53,3%</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Поверхность</p>
+                                                    <p class="sp_r">Гладкая</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Фаска</p>
+                                                    <p class="sp_r">Нет</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Марка прочности</p>
+                                                    <p class="sp_r">М-100</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">ГОСТ</p>
+                                                    <p class="sp_r">530-2012</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F50 Циклов</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Теплопроводность</p>
+                                                    <p class="sp_r">0,144 Вт/м°С</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Влагопоглощение</p>
+                                                    <p class="sp_r">0.16</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Вес</p>
+                                                    <p class="sp_r">21.6 кг</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="main_sizes">
+                                            <div class="sizes_h">Размеры</div>
+                                            <div class="sizes_content">
+                                                <div class="item_size">
+                                                    <p class="p_l">Длина</p>
+                                                    <p class="pr">510</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Ширина</p>
+                                                    <p class="pr">250</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Высота</p>
+                                                    <p class="pr">219</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="transporting">
+                                            <div class="trans_h">Транспортировка</div>
+                                            <div class="trans_content">
+                                                <div class="item_trans">
+                                                    <p class="p_l">Упаковка</p>
+                                                    <p class="p_r">термопленка</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Поддоны</p>
+                                                    <p class="p_r">Невозвращаемые</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Кол-во на поддоне</p>
+                                                    <p class="p_r">40шт</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м2</p>
+                                                    <p class="p_r">17.3</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м3</p>
+                                                    <p class="p_r">36</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
+                                                    <p class="p_r">880</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInDown" data-wow-delay=".7s">
+                        <div class="product_wrapp">
+                            <div class="img_top">
+                                <img src="app/img/product_img/K-44.jpg" alt="ketra44" class="img_preview">
+                            </div>
+                            <div class="desc">
+                                <h3 class="title">КЕТРА 44</h3>
+                                <p class="price">115,30 руб/ шт</p>
+                            </div>
+                            <div class="hover_wrapp">
+                                <p class="look">описание</p>
+                                <div class="font_wr">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b_bg">
+                            <div class="big_desc">
+                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
+                                <div class="bg_call">Заказть звонок</div>
+                                <div class="desc_head">
+                                    <div class="desc_title">
+                                        <h3>КЕТРА 44</h3>
+                                    </div>
+                                </div>
+                                <div class="content_desc">
+                                    <div class="col-md-12">
+                                        <div class="main_desc">
+                                            <div class="main_desc_h">Основные характеристики</div>
+                                            <div class="main_content">
+                                                <div class="item_content">
+                                                    <p class="sp_l">Применение</p>
+                                                    <p class="sp_r">Стеновой</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Цвет</p>
+                                                    <p class="sp_r">Красный</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Размер (Тип)</p>
+                                                    <p class="sp_r">12.4 NF</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Пустотность</p>
+                                                    <p class="sp_r">51%</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Поверхность</p>
+                                                    <p class="sp_r">Гладкая</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Фаска</p>
+                                                    <p class="sp_r">Нет</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Марка прочности</p>
+                                                    <p class="sp_r">М-100</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">ГОСТ</p>
+                                                    <p class="sp_r">530-2012</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F50 Циклов</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Теплопроводность</p>
+                                                    <p class="sp_r">0,139 Вт/м°С</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Влагопоглощение</p>
+                                                    <p class="sp_r">15.4</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Вес</p>
+                                                    <p class="sp_r">19 кг</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="main_sizes">
+                                            <div class="sizes_h">Размеры</div>
+                                            <div class="sizes_content">
+                                                <div class="item_size">
+                                                    <p class="p_l">Длина</p>
+                                                    <p class="pr">440</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Ширина</p>
+                                                    <p class="pr">250</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Высота</p>
+                                                    <p class="pr">219</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="transporting">
+                                            <div class="trans_h">Транспортировка</div>
+                                            <div class="trans_content">
+                                                <div class="item_trans">
+                                                    <p class="p_l">Упаковка</p>
+                                                    <p class="p_r">термопленка</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Поддоны</p>
+                                                    <p class="p_r">Невозвращаемые</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Кол-во на поддоне</p>
+                                                    <p class="p_r">40шт</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м2</p>
+                                                    <p class="p_r">17.3</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м3</p>
+                                                    <p class="p_r">39.5</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
+                                                    <p class="p_r">880</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInRight" data-wow-delay=".7s">
+                        <div class="product_wrapp">
+                            <div class="img_top">
+                                <img src="app/img/product_img/K-38.jpg" alt="ketra__38" class="img_preview">
+                            </div>
+                            <div class="desc">
+                                <h3 class="title">КЕТРА 38</h3>
+                                <p class="price">99,50 руб/ шт</p>
+                            </div>
+                            <div class="hover_wrapp">
+                                <p class="look">описание</p>
+                                <div class="font_wr">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b_bg">
+                            <div class="big_desc">
+                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
+                                <div class="bg_call">Заказть звонок</div>
+                                <div class="desc_head">
+                                    <div class="desc_title">
+                                        <h3>КЕТРА 38</h3>
+                                    </div>
+                                </div>
+                                <div class="content_desc">
+                                    <div class="col-md-12">
+                                        <div class="main_desc">
+                                            <div class="main_desc_h">Основные характеристики</div>
+                                            <div class="main_content">
+                                                <div class="item_content">
+                                                    <p class="sp_l">Применение</p>
+                                                    <p class="sp_r">Стеновой</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Цвет</p>
+                                                    <p class="sp_r">Красный</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Размер (Тип)</p>
+                                                    <p class="sp_r">10.7 NF</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Пустотность</p>
+                                                    <p class="sp_r">52,5%</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Поверхность</p>
+                                                    <p class="sp_r">Гладкая</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Фаска</p>
+                                                    <p class="sp_r">Нет</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Марка прочности</p>
+                                                    <p class="sp_r">М-100</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">ГОСТ</p>
+                                                    <p class="sp_r">530-2012</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F50 Циклов</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Теплопроводность</p>
+                                                    <p class="sp_r">0.149 Вт/м°С</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Влагопоглощение</p>
+                                                    <p class="sp_r">16.4</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Вес</p>
+                                                    <p class="sp_r">17 кг</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="main_sizes">
+                                            <div class="sizes_h">Размеры</div>
+                                            <div class="sizes_content">
+                                                <div class="item_size">
+                                                    <p class="p_l">Длина</p>
+                                                    <p class="pr">380</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Ширина</p>
+                                                    <p class="pr">250</p>
+                                                </div>
+                                                <div class="item_size">
+                                                    <p class="p_l">Высота</p>
+                                                    <p class="pr">219</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="transporting">
+                                            <div class="trans_h">Транспортировка</div>
+                                            <div class="trans_content">
+                                                <div class="item_trans">
+                                                    <p class="p_l">Упаковка</p>
+                                                    <p class="p_r">термопленка</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Поддоны</p>
+                                                    <p class="p_r">Невозвращаемые</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Кол-во на поддоне</p>
+                                                    <p class="p_r">60шт</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м2</p>
+                                                    <p class="p_r">17.3</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Количество в 1 м3</p>
+                                                    <p class="p_r">45.8</p>
+                                                </div>
+                                                <div class="item_trans">
+                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
+                                                    <p class="p_r">1260</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInLeft" data-wow-delay=".7s">
+                        <div class="product_wrapp">
+                            <div class="img_top">
+                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                            </div>
+                            <div class="desc">
+                                <h3 class="title">КЕТРА 38 Климаблок</h3>
+                                <p class="price">104.5 руб /1 шт.</p>
+                            </div>
+                            <div class="hover_wrapp">
+                                <p class="look">описание</p>
+                                <div class="font_wr">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b_bg">
+                            <div class="big_desc">
+                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
+                                <div class="bg_call">Заказть звонок</div>
+                                <div class="desc_head">
+                                    <div class="desc_title">
+                                        <h3>КЕТРА 38 Климаблок</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -387,14 +792,14 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 wow fadeInRight" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/K-25.jpg" alt="ketra_38" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">КЕТРА 25</h3>
+                                <p class="price">100.80 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -409,7 +814,7 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>КЕТРА 25</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -419,7 +824,7 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="main_content">
                                                 <div class="item_content">
                                                     <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
+                                                    <p class="sp_r">Стеновой,перегородочный</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Цвет</p>
@@ -427,7 +832,7 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_r">11.2 NF</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Пустотность</p>
@@ -455,15 +860,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_r">0.200 Вт/м°С</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_r">19.6</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_r">17 кг</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -474,11 +879,11 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="sizes_content">
                                                 <div class="item_size">
                                                     <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
+                                                    <p class="pr">250</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
+                                                    <p class="pr">398</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Высота</p>
@@ -505,15 +910,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
+                                                    <p class="p_r">10.7</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
+                                                    <p class="p_r">43.5</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
+                                                    <p class="p_r">1260</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -522,14 +927,14 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/K-2_1.jpg" alt="ketra_38" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">КЕТРА 2.1</h3>
+                                <p class="price">19 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -544,7 +949,7 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>КЕТРА 2.1</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -562,11 +967,11 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_r">2.1 NF</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
+                                                    <p class="sp_r">51%</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Поверхность</p>
@@ -590,15 +995,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_r">0,157 Вт/м°С</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_r">16.4</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_r">3.2 кг</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -609,15 +1014,15 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="sizes_content">
                                                 <div class="item_size">
                                                     <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Ширина</p>
                                                     <p class="pr">250</p>
                                                 </div>
                                                 <div class="item_size">
+                                                    <p class="p_l">Ширина</p>
+                                                    <p class="pr">120</p>
+                                                </div>
+                                                <div class="item_size">
                                                     <p class="p_l">Высота</p>
-                                                    <p class="pr">219</p>
+                                                    <p class="pr">140</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -636,19 +1041,19 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
+                                                    <p class="p_r">308шт</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
+                                                    <p class="p_r">26</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
+                                                    <p class="p_r">200</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
+                                                    <p class="p_r">6160</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -657,14 +1062,14 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4 wow fadeInDown" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/K-20.jpg" alt="ketra_20" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">КЕТРА 20</h3>
+                                <p class="price">81 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -679,7 +1084,7 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>КЕТРА 20</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -697,11 +1102,11 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_r">9 NF</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
+                                                    <p class="sp_r">45%</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Поверхность</p>
@@ -725,15 +1130,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_r">0,149 Вт/м°С</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_r">16.1</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_r">16 кг</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -744,11 +1149,11 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="sizes_content">
                                                 <div class="item_size">
                                                     <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
+                                                    <p class="pr">400</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
+                                                    <p class="pr">200</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Высота</p>
@@ -771,19 +1176,19 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
+                                                    <p class="p_r">72шт</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
+                                                    <p class="p_r">11.4</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
+                                                    <p class="p_r">54.3</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
+                                                    <p class="p_r">1368</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -792,14 +1197,14 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4 wow fadeInRight" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/K-12.jpg" alt="ketra_38" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">КЕТРА 12</h3>
+                                <p class="price">62.10 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -814,7 +1219,7 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>КЕТРА 12</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -824,7 +1229,7 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="main_content">
                                                 <div class="item_content">
                                                     <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
+                                                    <p class="sp_r">Перегородочный</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Цвет</p>
@@ -832,11 +1237,11 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_r">6.9 NF</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
+                                                    <p class="sp_r">47.8%</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Поверхность</p>
@@ -860,15 +1265,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_r">- Вт/м°С</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_r">16.1</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_r">11.5 кг</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -879,11 +1284,11 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="sizes_content">
                                                 <div class="item_size">
                                                     <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
+                                                    <p class="pr">120</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
+                                                    <p class="pr">510</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Высота</p>
@@ -906,19 +1311,19 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
+                                                    <p class="p_r">80шт</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
+                                                    <p class="p_r">8.6</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
+                                                    <p class="p_r">-</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
+                                                    <p class="p_r">1760</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -927,14 +1332,14 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 wow fadeInLeft" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/K-10.jpg" alt="ketra10" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">КЕТРА 10</h3>
+                                <p class="price">51.90 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -949,7 +1354,7 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>КЕТРА 10</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -959,7 +1364,7 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="main_content">
                                                 <div class="item_content">
                                                     <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
+                                                    <p class="sp_r">Перегородочный</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Цвет</p>
@@ -967,11 +1372,11 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_r">5.7 NF</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
+                                                    <p class="sp_r">47%</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Поверхность</p>
@@ -995,15 +1400,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_r">- Вт/м°С</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_r">16.1</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_r">10.4 кг</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1014,11 +1419,11 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="sizes_content">
                                                 <div class="item_size">
                                                     <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
+                                                    <p class="pr">100</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
+                                                    <p class="pr">510</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Высота</p>
@@ -1041,19 +1446,19 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
+                                                    <p class="p_r">96шт</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
+                                                    <p class="p_r">8.6</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
+                                                    <p class="p_r">-</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
+                                                    <p class="p_r">2016</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1062,14 +1467,14 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 wow fadeInRight" data-wow-delay=".7s">
                         <div class="product_wrapp">
                             <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
+                                <img src="app/img/product_img/KB-8.png" alt="8" class="img_preview">
                             </div>
                             <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
+                                <h3 class="title">Кетра блок 8</h3>
+                                <p class="price">41 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -1084,7 +1489,7 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="bg_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
+                                        <h3>Кетра блок 8</h3>
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1094,7 +1499,7 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="main_content">
                                                 <div class="item_content">
                                                     <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
+                                                    <p class="sp_r">Перегородочный</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Цвет</p>
@@ -1102,11 +1507,11 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_r">4,5 NF</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
+                                                    <p class="sp_r">47%</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Поверхность</p>
@@ -1130,15 +1535,15 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_r">- Вт/м°С</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_r">16.1</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_r">9.2кг</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1149,11 +1554,11 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="sizes_content">
                                                 <div class="item_size">
                                                     <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
+                                                    <p class="pr">80</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
+                                                    <p class="pr">510</p>
                                                 </div>
                                                 <div class="item_size">
                                                     <p class="p_l">Высота</p>
@@ -1176,424 +1581,19 @@ ini_set('display_startup_errors', TRUE);
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
+                                                    <p class="p_r">112шт</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
+                                                    <p class="p_r">8.6</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
+                                                    <p class="p_r">-</p>
                                                 </div>
                                                 <div class="item_trans">
                                                     <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="product_wrapp">
-                            <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
-                            </div>
-                            <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
-                            </div>
-                            <div class="hover_wrapp">
-                                <p class="look">описание</p>
-                                <div class="font_wr">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b_bg">
-                            <div class="big_desc">
-                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
-                                <div class="bg_call">Заказть звонок</div>
-                                <div class="desc_head">
-                                    <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
-                                    </div>
-                                </div>
-                                <div class="content_desc">
-                                    <div class="col-md-12">
-                                        <div class="main_desc">
-                                            <div class="main_desc_h">Основные характеристики</div>
-                                            <div class="main_content">
-                                                <div class="item_content">
-                                                    <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Цвет</p>
-                                                    <p class="sp_r">Красный</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Поверхность</p>
-                                                    <p class="sp_r">Гладкая</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Фаска</p>
-                                                    <p class="sp_r">Нет</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Марка прочности</p>
-                                                    <p class="sp_r">М-100</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">ГОСТ</p>
-                                                    <p class="sp_r">530-2012</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Морозостойкость</p>
-                                                    <p class="sp_r">F50 Циклов</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="main_sizes">
-                                            <div class="sizes_h">Размеры</div>
-                                            <div class="sizes_content">
-                                                <div class="item_size">
-                                                    <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Высота</p>
-                                                    <p class="pr">219</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="transporting">
-                                            <div class="trans_h">Транспортировка</div>
-                                            <div class="trans_content">
-                                                <div class="item_trans">
-                                                    <p class="p_l">Упаковка</p>
-                                                    <p class="p_r">термопленка</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Поддоны</p>
-                                                    <p class="p_r">Невозвращаемые</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="product_wrapp">
-                            <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
-                            </div>
-                            <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
-                            </div>
-                            <div class="hover_wrapp">
-                                <p class="look">описание</p>
-                                <div class="font_wr">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b_bg">
-                            <div class="big_desc">
-                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
-                                <div class="bg_call">Заказть звонок</div>
-                                <div class="desc_head">
-                                    <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
-                                    </div>
-                                </div>
-                                <div class="content_desc">
-                                    <div class="col-md-12">
-                                        <div class="main_desc">
-                                            <div class="main_desc_h">Основные характеристики</div>
-                                            <div class="main_content">
-                                                <div class="item_content">
-                                                    <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Цвет</p>
-                                                    <p class="sp_r">Красный</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Поверхность</p>
-                                                    <p class="sp_r">Гладкая</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Фаска</p>
-                                                    <p class="sp_r">Нет</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Марка прочности</p>
-                                                    <p class="sp_r">М-100</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">ГОСТ</p>
-                                                    <p class="sp_r">530-2012</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Морозостойкость</p>
-                                                    <p class="sp_r">F50 Циклов</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="main_sizes">
-                                            <div class="sizes_h">Размеры</div>
-                                            <div class="sizes_content">
-                                                <div class="item_size">
-                                                    <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Высота</p>
-                                                    <p class="pr">219</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="transporting">
-                                            <div class="trans_h">Транспортировка</div>
-                                            <div class="trans_content">
-                                                <div class="item_trans">
-                                                    <p class="p_l">Упаковка</p>
-                                                    <p class="p_r">термопленка</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Поддоны</p>
-                                                    <p class="p_r">Невозвращаемые</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="product_wrapp">
-                            <div class="img_top">
-                                <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
-                            </div>
-                            <div class="desc">
-                                <h3 class="title">КЕТРА 55</h3>
-                                <p class="price">0.00 руб/ шт</p>
-                            </div>
-                            <div class="hover_wrapp">
-                                <p class="look">описание</p>
-                                <div class="font_wr">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b_bg">
-                            <div class="big_desc">
-                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
-                                <div class="bg_call">Заказть звонок</div>
-                                <div class="desc_head">
-                                    <div class="desc_title">
-                                        <h3>КЕТРА 55</h3>
-                                    </div>
-                                </div>
-                                <div class="content_desc">
-                                    <div class="col-md-12">
-                                        <div class="main_desc">
-                                            <div class="main_desc_h">Основные характеристики</div>
-                                            <div class="main_content">
-                                                <div class="item_content">
-                                                    <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Цвет</p>
-                                                    <p class="sp_r">Красный</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Поверхность</p>
-                                                    <p class="sp_r">Гладкая</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Фаска</p>
-                                                    <p class="sp_r">Нет</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Марка прочности</p>
-                                                    <p class="sp_r">М-100</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">ГОСТ</p>
-                                                    <p class="sp_r">530-2012</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Морозостойкость</p>
-                                                    <p class="sp_r">F50 Циклов</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
-                                                </div>
-                                                <div class="item_content">
-                                                    <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="main_sizes">
-                                            <div class="sizes_h">Размеры</div>
-                                            <div class="sizes_content">
-                                                <div class="item_size">
-                                                    <p class="p_l">Длина</p>
-                                                    <p class="pr">380</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Ширина</p>
-                                                    <p class="pr">250</p>
-                                                </div>
-                                                <div class="item_size">
-                                                    <p class="p_l">Высота</p>
-                                                    <p class="pr">219</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="transporting">
-                                            <div class="trans_h">Транспортировка</div>
-                                            <div class="trans_content">
-                                                <div class="item_trans">
-                                                    <p class="p_l">Упаковка</p>
-                                                    <p class="p_r">термопленка</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Поддоны</p>
-                                                    <p class="p_r">Невозвращаемые</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Кол-во на поддоне</p>
-                                                    <p class="p_r">60шт</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Количество в 1 м2</p>
-                                                    <p class="p_r">17.3</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Количество в 1 м3</p>
-                                                    <p class="p_r">45.8</p>
-                                                </div>
-                                                <div class="item_trans">
-                                                    <p class="p_l">Норма загрузки шт. а/м 20 тонн.</p>
-                                                    <p class="p_r">1320</p>
+                                                    <p class="p_r">2464</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1609,8 +1609,8 @@ ini_set('display_startup_errors', TRUE);
     <section class="q_product">
         <div class="q_header">
             <div class="q_wrapp">
-                <h3>Закажите звонок и мы с Вами свяжемся</h3>
-                <div class="q_button">Связаться с нами</div>
+                <h3 class="wow fadeInDown" data-wow-delay=".7s">Закажите звонок и мы с Вами свяжемся</h3>
+                <div class="q_button wow fadeInUp" data-wow-delay=".7s">Связаться с нами</div>
                 <div class="q_del_m">
                     <div class="q_modal_wr">
                         <i class="fa fa-times" id="q_close" aria-hidden="true"></i>
@@ -1635,11 +1635,11 @@ ini_set('display_startup_errors', TRUE);
     </section>
     <section class="cv_sections" id="delivery">
         <div class="del_header">
-            <h3>Организация доставки "Под ключ"</h3>
+            <h3 class="wow fadeInDown" data-wow-delay="1.2s">Организация доставки "Под ключ"</h3>
         </div>
         <div class="del_content">
             <div class="col-md-6">
-                <div class="del_items">
+                <div class="del_items wow fadeInLeft" data-wow-delay="1.2s">
                     <div class="item">
                         <h4>Tранспорт</h4>
                         <ul class="ul_del">
@@ -1670,7 +1670,7 @@ ini_set('display_startup_errors', TRUE);
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="bg_truck"></div>
+                <div class="bg_truck wow fadeInRight" data-wow-delay="1.2s"></div>
             </div>
         </div>
     </section>
@@ -1716,11 +1716,11 @@ ini_set('display_startup_errors', TRUE);
             </div>
         </div>
         <div class="container text-center">
-            <h3>Остались
-                <span>вопросы?</span>
+            <h3 class="wow fadeInDown" data-wow-delay=".7s">Рассчитать
+                <span>стоимость доставки</span>
             </h3>
-            <p>Рассчитать стоимость доставки</p>
-            <div class="link-btn">Оставить заявку</div>
+<!--            <p class="wow fadeInLeft" data-wow-delay=".7s">Рассчитать стоимость доставки</p>-->
+            <div class="link-btn wow fadeInDown" data-wow-delay=".7s">Оставить заявку</div>
         </div>
     </div>
     <section class="cv_sections" id="actions">
@@ -1744,7 +1744,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                             <div class="act_desc">
                                 <div class="desc_head">КЛАДОЧНЫЙ РАСТВОР ОСНОВИТ</div>
-                                <p>Cкидка на расвтор основит</p>
+                                <p>Cкидка на раствор основит</p>
                                 <div class="strike"><strike>329р</strike> - <span>289р</span></div>
                             </div>
                         </div>
@@ -1767,10 +1767,11 @@ ini_set('display_startup_errors', TRUE);
                                 <img src="app/img/poddon.png" alt="no">
                             </div>
                             <div class="act_desc">
-                                <div class="desc_head">Получи поддон в подарок!</div>
-                                <p>Cкидка на расвтор основит</p>
-                                <div class="strike"><strike>329р</strike> - <span>289р</span></div>
+                                <div class="desc_head">Получи поддон блоков в подарок!</div>
+                                <p>* При заказе машины блоков</p>
+                                <div class="strike"><span>Суперпредложение!</span></div>
                             </div>
+                            <img class="gift" src="app/img/product_img/icons8-Gift-100.png" alt="alt">
                         </div>
                     </div>
                     <div class="note_act">* Акция дейстует до конца августа 2017г</div>
@@ -1780,11 +1781,11 @@ ini_set('display_startup_errors', TRUE);
         </div>
     </section>
     <section class="cv_sections" id="contacts">
-        <div id="map" style="width: 100%; height: 400px"></div>
+        <div id="map" style="width: 100%; height: 350px"></div>
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="footer_item">
                             <div class="footer_nav">
                                 <ul class="ul_right">
@@ -1798,18 +1799,18 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="footer_item">
                             <div class="adress">
                                 <p class="ad_p color"><b>Нижний Новгород</b></p>
                                 <p class="ad_p">Рождественская ул, дом N 11-13/7</p>
                                 <p class="ad_p">Помещение П2, офис 210</p>
                                 <p class="ad_p">brr.rk52@gmail.com</p>
-                                <p class="ad_p">8(920) 047 54 79</p>
+                                <p class="ad_p">+7(831) 21-41-900</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="footer_item">
 
                         </div>
@@ -1818,7 +1819,7 @@ ini_set('display_startup_errors', TRUE);
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="hr">
+                    <div class="hr wow fadeIn" data-wow-delay=".7s">
                         <p>© 2017 Все права защищены.</p>
                     </div>
                 </div>

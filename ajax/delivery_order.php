@@ -5,12 +5,24 @@ error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 
-
+//function formatstr($str)
+//{
+//    $str = trim($str);
+//    $str = stripslashes($str);
+//    $str = htmlspecialchars($str);
+//    return $str;
+//}
 //
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$local = $_POST['local'];
-$count = $_POST['count_blocks'];
+$name = trim($_POST['name']);
+$phone = trim($_POST['phone']);
+$local = trim($_POST['local']);
+$count = trim($_POST['count_blocks']);
+
+$name = htmlspecialchars($name);
+$phone = htmlspecialchars($phone);
+$local = htmlspecialchars($local);
+$count = htmlspecialchars($count);
+
 $insert = $pdo->prepare("INSERT INTO `delivery` SET user_name=:user_name, phone=:phone, local_data=:local_data, count_blocks=:count_blocks");
 $insert->bindParam(':user_name', $name);
 $insert->bindParam(':phone', $phone);

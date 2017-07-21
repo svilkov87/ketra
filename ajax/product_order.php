@@ -7,8 +7,11 @@ ini_set('display_startup_errors', TRUE);
 
 
 //
-$name = $_POST['name'];
-$phone = $_POST['phone'];
+$name = trim($_POST['name']);
+$phone = trim($_POST['phone']);
+
+$name = htmlspecialchars($name);
+$phone = htmlspecialchars($phone);
 $insert = $pdo->prepare("INSERT INTO `orders` SET user_name=:user_name, phone=:phone");
 $insert->bindParam(':user_name', $name);
 $insert->bindParam(':phone', $phone);
