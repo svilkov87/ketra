@@ -58,9 +58,23 @@ $(document).ready(function(){
     $(".act_item").click(function () {
         var bg = $(this).next(".act_bg").toggleClass('down');
         var descAct = bg.find(".big_desc").toggleClass('down');
-        var closeAct = descAct.children('.act_call').click(function () {
+
+        var closeDecsWindow = $('#close_desc');
+        closeDecsWindow.click(function () {
             bg.removeClass('down');
             descAct.removeClass('down');
+        });
+
+        var closeDesc = descAct.children('.act_call').click(function () {
+            bg.removeClass('down');
+            descAct.removeClass('down');
+            var popUpAct = $(".call_act").addClass('show');
+            var descBlock = $(this).children('.popup_act');
+
+            var closePopup = $('#close_act');
+            closePopup.click(function () {
+                popUpAct.removeClass('show');
+            });
         });
     });
 

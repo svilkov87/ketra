@@ -1735,6 +1735,38 @@
             <!--</div>-->
             <div class="container">
                 <div class="row">
+                    <!--modal-->
+                    <div class="call_act">
+                        <div class="popup_act">
+                            <i class="fa fa-times" id="close_act" aria-hidden="true"></i>
+                            <div class="header">Оставить заявку</div>
+                            <div class="modal_forms">
+                                <div class="err_block">
+                                    Не все поля заполнены!
+                                </div>
+                                <div class="modal_confirm">
+                                    Спасибо!
+                                </div>
+                                <div class="cssload-thecube">
+                                    <div class="cssload-cube cssload-c1"></div>
+                                    <div class="cssload-cube cssload-c2"></div>
+                                    <div class="cssload-cube cssload-c4"></div>
+                                    <div class="cssload-cube cssload-c3"></div>
+                                </div>
+                                <form action="" method="post" id="act_form">
+                                    <div class="form_line">
+                                        <label>Введите имя *</label>
+                                        <input type="text" name="name" class="form_style" id="act_name" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="form_line">
+                                        <label>Укажите контактный телефон *</label>
+                                        <input type="text" name="phone" class="form_style" id="act_phone" placeholder="+ 7 900 800 00 00">
+                                    </div>
+                                    <button type="submit" name="enter" class="btn_act">Заказать звонок</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-4">
                         <div class="act_item">
                             <div class="act_head">
@@ -1748,7 +1780,7 @@
                         </div>
                         <div class="act_bg">
                             <div class="big_desc">
-                                <i class="fa fa-times fa_times" aria-hidden="true"></i>
+                                <i class="fa fa-times fa_times" id="close_desc" aria-hidden="true"></i>
                                 <div class="act_call">Заказть звонок</div>
                                 <div class="desc_head">
                                     <div class="desc_title">
