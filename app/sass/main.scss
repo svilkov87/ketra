@@ -1803,13 +1803,13 @@ body{
             @include smart_vert_hor{
               width: 95%;
             }
-            .err_block{
+            .err_block_act{
               display: none;
               padding: 10px;
               color: #ff523c;
               text-align: center;
             }
-            .modal_confirm{
+            .modal_confirm_act{
               display: none;
               text-align: center;
               padding-top: 50px;
@@ -2080,7 +2080,7 @@ body{
           @include smart_vert_hor{
             width: 95%;
           }
-          .fa_times {
+          .fa_cl_act {
             color: #000;
             position: absolute;
             top: 13px;
@@ -2090,7 +2090,7 @@ body{
           }
           .act_call {
             color: #fff;
-            background: $nav_bg_hover;
+            background: #00a15f;
             position: absolute;
             bottom: 0;
             padding: 25px;
@@ -2152,7 +2152,7 @@ body{
               .main_desc_h{
                 padding: 10px;
                 color: #ffffff;
-                background: $nav_bg_hover;
+                background: #00a15f;
               }
               .main_content{
                 .item_content{
@@ -2183,7 +2183,7 @@ body{
               .sizes_h{
                 padding: 10px;
                 color: #ffffff;
-                background: $nav_bg_hover;
+                background: #00a15f;
               }
               .sizes_content{
                 .item_size{
@@ -2214,7 +2214,7 @@ body{
               .trans_h{
                 padding: 10px;
                 color: #ffffff;
-                background: $nav_bg_hover;
+                background: #00a15f;
               }
               .trans_content{
                 .item_trans{

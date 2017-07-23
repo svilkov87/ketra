@@ -59,7 +59,7 @@ $(document).ready(function(){
         var bg = $(this).next(".act_bg").toggleClass('down');
         var descAct = bg.find(".big_desc").toggleClass('down');
 
-        var closeDecsWindow = $('#close_desc');
+        var closeDecsWindow = $('.fa_cl_act');
         closeDecsWindow.click(function () {
             bg.removeClass('down');
             descAct.removeClass('down');
@@ -186,6 +186,41 @@ $(document).ready(function(){
             $('.err_block').css("display" , "none");
         });
     });
+
+
+    // форма заявки на акции
+    $('.btn_act').click(function(e){
+        e.preventDefault();
+        var act_name = $('#act_name').val(),
+            act_phone = $('#act_phone').val();
+
+
+        if( act_name == "" || act_phone == ""){
+            // alert('fuck');
+            $('.err_block_act').css("display" , "block");
+        }
+        else {
+            $('.err_block_act').css("display" , "none");
+            $('#act_form').css("display" , "none");
+            $('.cssload-thecube').css("display" , "block");
+            $.ajax({
+                url: "../../ajax/actions_order.php",
+                type: "POST",
+                data: $('#act_form').serialize(),
+                dataType: "html"
+            }).done(function(){
+                $('#act_form').css("display" , "none");
+                $('.modal_confirm_act').css("display" , "block");
+                $('.cssload-thecube').fadeOut(2000);
+            });
+        }
+        $('#act_name, #act_phone').focus(function(){
+            $('.err_block_act').css("display" , "none");
+        });
+    });
+
+
+
 
     //Плавный скролл до блока .div по клику на .scroll
   //Документация: https://github.com/flesler/jquery.scrollTo

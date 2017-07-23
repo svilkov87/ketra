@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="app/libs/jQuery-slimScroll-1.3.8/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-448d362fc4.css">
+    <link rel="stylesheet" href="app/css/main-e54b38a1fa.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
@@ -34,7 +34,7 @@ ini_set('display_startup_errors', TRUE);
     <script src="app/libs/respond/respond.min.js"></script>
     <!--[endif]-->
     <script src="app/libs/scrollto/jquery.scrollTo.min.js"></script>
-    <script src="app/libs/main.js"></script>
+    <script src="app/libs/main-min.js"></script>
     <script type="text/javascript" src="app/libs/wow.min.js"></script>
     <script type="text/javascript">
         $(function(){
@@ -1733,15 +1733,41 @@ ini_set('display_startup_errors', TRUE);
             <h3>Текущие акции компании</h3>
         </div>
         <div class="act_body">
-            <!--<div class="col-md-6 col-md-offset-3">-->
-            <!--<ul class="bg_main">-->
-            <!--<li><img src="img/osnovit.png" alt="no"></li>-->
-            <!--<li><img src="img/osnovit_2.png" alt="no"></li>-->
-            <!--&lt;!&ndash;<li><img src="img/osnovit.png" alt="no"></li>&ndash;&gt;-->
-            <!--</ul>-->
-            <!--</div>-->
             <div class="container">
                 <div class="row">
+                    <!--modal-->
+                    <div class="call_act">
+                        <div class="popup_act">
+                            <i class="fa fa-times" id="close_act" aria-hidden="true"></i>
+                            <div class="header">Оставить заявку</div>
+                            <div class="modal_forms">
+                                <div class="err_block_act">
+                                    Не все поля заполнены!
+                                </div>
+                                <div class="modal_confirm_act">
+                                    Спасибо!
+                                </div>
+                                <div class="cssload-thecube">
+                                    <div class="cssload-cube cssload-c1"></div>
+                                    <div class="cssload-cube cssload-c2"></div>
+                                    <div class="cssload-cube cssload-c4"></div>
+                                    <div class="cssload-cube cssload-c3"></div>
+                                </div>
+                                <form action="" method="post" id="act_form">
+                                    <div class="form_line">
+                                        <label>Введите имя *</label>
+                                        <input type="text" name="name" class="form_style" id="act_name" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="form_line">
+                                        <label>Укажите контактный телефон *</label>
+                                        <input type="text" name="phone" class="form_style" id="act_phone" placeholder="+ 7 900 800 00 00">
+                                    </div>
+                                    <button type="submit" name="enter" class="btn_act">Заказать звонок</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+<!--                    /modal-->
                     <div class="col-md-4">
                         <div class="act_item">
                             <div class="act_head">
@@ -1751,6 +1777,74 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="desc_head">КЛАДОЧНЫЙ РАСТВОР ОСНОВИТ</div>
                                 <p>Cкидка на раствор основит</p>
                                 <div class="strike"><strike>329р</strike> - <span>289р</span></div>
+                            </div>
+                        </div>
+                        <div class="act_bg">
+                            <div class="big_desc">
+                                <i class="fa fa-times fa_cl_act" aria-hidden="true"></i>
+                                <div class="act_call">Заказть звонок</div>
+                                <div class="desc_head">
+                                    <div class="desc_title">
+                                        <h3>Основит</h3>
+                                    </div>
+                                </div>
+                                <div class="content_desc">
+                                    <div class="col-md-12">
+                                        <div class="main_desc">
+                                            <div class="main_desc_h">Основные характеристики</div>
+                                            <div class="main_content">
+                                                <div class="item_content">
+                                                    <p class="sp_l">Применение</p>
+                                                    <p class="sp_r">Стеновой</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Цвет</p>
+                                                    <p class="sp_r">Красный</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Размер (Тип)</p>
+                                                    <p class="sp_r">10.7 NF</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Пустотность</p>
+                                                    <p class="sp_r">52,5%</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Поверхность</p>
+                                                    <p class="sp_r">Гладкая</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Фаска</p>
+                                                    <p class="sp_r">Нет</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Марка прочности</p>
+                                                    <p class="sp_r">М-100</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">ГОСТ</p>
+                                                    <p class="sp_r">530-2012</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F50 Циклов</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Теплопроводность</p>
+                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Влагопоглощение</p>
+                                                    <p class="sp_r">20</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Вес</p>
+                                                    <p class="sp_r">15,1 кг</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1763,6 +1857,74 @@ ini_set('display_startup_errors', TRUE);
                                 <div class="desc_head">Кладочный раствор с перлитом</div>
                                 <p>Cкидка на расвтор LM - 10%</p>
                                 <div class="strike"><span>Успей купить!</span></div>
+                            </div>
+                        </div>
+                        <div class="act_bg">
+                            <div class="big_desc">
+                                <i class="fa fa-times fa_cl_act" aria-hidden="true"></i>
+                                <div class="act_call">Заказть звонок</div>
+                                <div class="desc_head">
+                                    <div class="desc_title">
+                                        <h3>Раствор LM</h3>
+                                    </div>
+                                </div>
+                                <div class="content_desc">
+                                    <div class="col-md-12">
+                                        <div class="main_desc">
+                                            <div class="main_desc_h">Основные характеристики</div>
+                                            <div class="main_content">
+                                                <div class="item_content">
+                                                    <p class="sp_l">Категория</p>
+                                                    <p class="sp_r">M5</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Плотность</p>
+                                                    <p class="sp_r">< 1000 кг/м3</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Теплопроводность</p>
+                                                    <p class="sp_r">≤ 0,21 Вт/(м⋅К)</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Прочность</p>
+                                                    <p class="sp_r">≥ 5 МПа</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Размер заполнителя</p>
+                                                    <p class="sp_r">0-1 мм</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">T° применения</p>
+                                                    <p class="sp_r">от +5°С до +30°С</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Время использования</p>
+                                                    <p class="sp_r">~ 2 часа</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F75</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Морозостойкость</p>
+                                                    <p class="sp_r">F50 Циклов</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Кол-во воды</p>
+                                                    <p class="sp_r">~ 13,0-14,0 л на 20 кг</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Выход</p>
+                                                    <p class="sp_r">~ 30-32 л из 20 кг сухой смеси</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Вес</p>
+                                                    <p class="sp_r">20 кг</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
