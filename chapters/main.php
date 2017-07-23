@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="app/libs/jQuery-slimScroll-1.3.8/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-e4b1aa1a1e.css">
+    <link rel="stylesheet" href="app/css/main-448d362fc4.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
@@ -254,12 +254,13 @@ ini_set('display_startup_errors', TRUE);
                 <div class="row">
                     <div class="col-md-4 wow fadeInLeft" data-wow-delay=".7s">
                         <div class="product_wrapp">
+                            <span class="ribbon"><span class="ribbon1">Акция</span></span>
                             <div class="img_top">
                                 <img src="app/img/product_img/K-51.jpg" alt="ketra51" class="img_preview">
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 51</h3>
-                                <p class="price">130,10 руб/ шт</p>
+                                <p class="price">117 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -389,12 +390,13 @@ ini_set('display_startup_errors', TRUE);
                     </div>
                     <div class="col-md-4 wow fadeInDown" data-wow-delay=".7s">
                         <div class="product_wrapp">
+                            <span class="ribbon"><span class="ribbon1">Акция</span></span>
                             <div class="img_top">
                                 <img src="app/img/product_img/K-44.jpg" alt="ketra44" class="img_preview">
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 44</h3>
-                                <p class="price">115,30 руб/ шт</p>
+                                <p class="price">104  руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -524,12 +526,13 @@ ini_set('display_startup_errors', TRUE);
                     </div>
                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".7s">
                         <div class="product_wrapp">
+                            <span class="ribbon"><span class="ribbon1">Акция</span></span>
                             <div class="img_top">
                                 <img src="app/img/product_img/K-38.jpg" alt="ketra__38" class="img_preview">
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 38</h3>
-                                <p class="price">99,50 руб/ шт</p>
+                                <p class="price">90 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -659,12 +662,13 @@ ini_set('display_startup_errors', TRUE);
                     </div>
                     <div class="col-md-6 wow fadeInLeft" data-wow-delay=".7s">
                         <div class="product_wrapp">
+                            <span class="ribbon"><span class="ribbon1">Акция</span></span>
                             <div class="img_top">
                                 <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra_38" class="img_preview">
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 38 Климаблок</h3>
-                                <p class="price">104.5 руб /1 шт.</p>
+                                <p class="price">94 руб /1 шт.</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -794,12 +798,13 @@ ini_set('display_startup_errors', TRUE);
                     </div>
                     <div class="col-md-6 wow fadeInRight" data-wow-delay=".7s">
                         <div class="product_wrapp">
+                            <span class="ribbon"><span class="ribbon1">Акция</span></span>
                             <div class="img_top">
                                 <img src="app/img/product_img/K-25.jpg" alt="ketra_38" class="img_preview">
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 25</h3>
-                                <p class="price">100.80 руб/ шт</p>
+                                <p class="price">91,5  руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -1069,7 +1074,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 20</h3>
-                                <p class="price">81 руб/ шт</p>
+                                <p class="price">73  руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -1204,7 +1209,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 12</h3>
-                                <p class="price">62.10 руб/ шт</p>
+                                <p class="price">56 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -1339,7 +1344,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                             <div class="desc">
                                 <h3 class="title">КЕТРА 10</h3>
-                                <p class="price">51.90 руб/ шт</p>
+                                <p class="price">47 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>
@@ -1474,7 +1479,7 @@ ini_set('display_startup_errors', TRUE);
                             </div>
                             <div class="desc">
                                 <h3 class="title">Кетра блок 8</h3>
-                                <p class="price">41 руб/ шт</p>
+                                <p class="price">37 руб/ шт</p>
                             </div>
                             <div class="hover_wrapp">
                                 <p class="look">описание</p>

@@ -54,6 +54,18 @@ $(document).ready(function(){
         bg.find(".big_desc").toggleClass('down');
     });
 
+    //показать хар=ки продукта в акциях
+    $(".act_item").click(function () {
+        var bg = $(this).next(".act_bg").toggleClass('down');
+        var descAct = bg.find(".big_desc").toggleClass('down');
+        var closeAct = descAct.children('.act_call').click(function () {
+            bg.removeClass('down');
+            descAct.removeClass('down');
+        });
+    });
+
+
+
     $('.fa_times').click(function () {
         var popup = $(this).parent('.big_desc').removeClass('down');
         popup.parent('.b_bg').toggleClass('down');
@@ -80,7 +92,7 @@ $(document).ready(function(){
     $(".link-btn_act").click(function () {
         $('.bg_phone').addClass('show');
     });
-    
+
 
     $('#q_close' ).click(function () {
         var q_del = $(this).parent('.q_modal_wr').removeClass('show');
