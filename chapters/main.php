@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="app/libs/jQuery-slimScroll-1.3.8/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-e54b38a1fa.css">
+    <link rel="stylesheet" href="app/css/main-d78cd9ab5d.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
@@ -1794,52 +1794,56 @@ ini_set('display_startup_errors', TRUE);
                                             <div class="main_desc_h">Основные характеристики</div>
                                             <div class="main_content">
                                                 <div class="item_content">
-                                                    <p class="sp_l">Применение</p>
-                                                    <p class="sp_r">Стеновой</p>
-                                                </div>
-                                                <div class="item_content">
                                                     <p class="sp_l">Цвет</p>
-                                                    <p class="sp_r">Красный</p>
+                                                    <p class="sp_r">Серый</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Размер (Тип)</p>
-                                                    <p class="sp_r">10.7 NF</p>
+                                                    <p class="sp_l">Прочность на сжатие</p>
+                                                    <p class="sp_r">≥5 МПа</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Пустотность</p>
-                                                    <p class="sp_r">52,5%</p>
+                                                    <p class="sp_l">Прочность на изгиб</p>
+                                                    <p class="sp_r">≥1,5 МПа</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Поверхность</p>
-                                                    <p class="sp_r">Гладкая</p>
+                                                    <p class="sp_l">Водоуд. способность</p>
+                                                    <p class="sp_r">≥75%</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Фаска</p>
-                                                    <p class="sp_r">Нет</p>
+                                                    <p class="sp_l">Расход воды на 1кг</p>
+                                                    <p class="sp_r">0,35 – 0,40 л</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Марка прочности</p>
-                                                    <p class="sp_r">М-100</p>
+                                                    <p class="sp_l">Выход готового раствора</p>
+                                                    <p class="sp_r">21-23 литра</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">ГОСТ</p>
-                                                    <p class="sp_r">530-2012</p>
+                                                    <p class="sp_l">Жизненный цикл</p>
+                                                    <p class="sp_r">2 часа</p>
                                                 </div>
                                                 <div class="item_content">
                                                     <p class="sp_l">Морозостойкость</p>
-                                                    <p class="sp_r">F50 Циклов</p>
+                                                    <p class="sp_r">50 циклов</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Теплопроводность</p>
-                                                    <p class="sp_r">0,11 Вт/м°С</p>
+                                                    <p class="sp_l">Температура окружающей среды и основания при нанесении</p>
+                                                    <p class="sp_r">+5°С…+30°С</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Влагопоглощение</p>
-                                                    <p class="sp_r">20</p>
+                                                    <p class="sp_l">Температура эксплуатации</p>
+                                                    <p class="sp_r">-50°С…+65°С</p>
                                                 </div>
                                                 <div class="item_content">
-                                                    <p class="sp_l">Вес</p>
-                                                    <p class="sp_r">15,1 кг</p>
+                                                    <p class="sp_l">Коэффициент теплопроводности</p>
+                                                    <p class="sp_r">0,21-0,23 Вт/м•ºК</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Плотность</p>
+                                                    <p class="sp_r"><1000 кг/м³</p>
+                                                </div>
+                                                <div class="item_content">
+                                                    <p class="sp_l">Срок годности</p>
+                                                    <p class="sp_r">12 мес</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1979,7 +1983,7 @@ ini_set('display_startup_errors', TRUE);
                     </div>
                     <div class="col-md-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="footer_item">
-
+                            <p class="p_ht wow fadeInUp" data-wow-delay=".7s">Официальный дилер завода строительной керамики КЕТРА в Нижнем Новгороде, ООО "Русский Кирпич"</p>
                         </div>
                     </div>
                 </div>

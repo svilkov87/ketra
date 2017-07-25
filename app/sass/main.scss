@@ -753,6 +753,8 @@ body{
           .price {
             text-align: center;
             padding: 5px;
+            font-weight: bold;
+            font-size: 24px;
           }
         }
         .hover_wrapp {
@@ -2164,6 +2166,7 @@ body{
                     float: left;
                     @include smart_vert_hor{
                       font-size: 14px;
+                      width: 50%;
                     }
                   }
                   .sp_r{
@@ -2340,6 +2343,10 @@ body{
               }
             }
           }
+        }
+        .p_ht{
+          color: #c8bebe;
+          margin-top: 10px;
         }
       }
       .hr{
